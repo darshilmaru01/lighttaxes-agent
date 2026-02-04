@@ -1,0 +1,9 @@
+{
+  "filing_status": "single",
+  "w2": [
+    {"amount": 60000}
+  ],
+  "1099_int": [
+    {"amount": 200}
+  ]
+}
