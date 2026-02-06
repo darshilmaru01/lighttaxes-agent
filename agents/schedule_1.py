@@ -1,4 +1,3 @@
-# agents/schedule_1.py
 from agents.base import FormAgent
 
 class Schedule1Agent(FormAgent):
@@ -6,7 +5,7 @@ class Schedule1Agent(FormAgent):
 
     def run(self, inputs: dict):
         additional_income = inputs.get("schedule_b_interest", 0.0)
-        adjustments = 0.0  # keeping simple for now
+        adjustments = 0.0 
 
         return {
             "schedule1_additional_income": additional_income,

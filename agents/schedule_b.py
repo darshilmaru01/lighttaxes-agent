@@ -1,4 +1,3 @@
-# agents/schedule_b.py
 from agents.base import FormAgent
 
 class ScheduleBAgent(FormAgent):

@@ -1,4 +1,3 @@
-# agents/form_1040.py
 from agents.base import FormAgent
 from tools.standard_deduction import standard_deduction
 from tools.tax_table import compute_tax
@@ -18,7 +17,7 @@ class Form1040Agent(FormAgent):
         total_income = wages + additional_income
         agi = total_income - adjustments
 
-        # --- PDF grounding step
+        # --- PDF grounding
         pdf = PDFNavigator("data/irs_pdfs/i1040gi--2024.pdf")
         deduction_context = pdf.search("standard deduction", max_pages=5)
 
